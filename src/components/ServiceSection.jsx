@@ -1,4 +1,3 @@
-import React from "react";
 import "./ServiceSection.css";
 
 const ServiceSection = () => {
@@ -7,7 +6,7 @@ const ServiceSection = () => {
       <div className='container'>
         {/* Section Heading */}
         <div className='services-header'>
-          <h2>Welcome to GreenEdge Digital Innovations Limited</h2>
+          <h2>Welcome to Subthingy Digital Services Limited</h2>
           <p>Providing Mobile Solutions &amp; Opportunities</p>
         </div>
 
@@ -29,7 +28,7 @@ const ServiceSection = () => {
           <div className='service-card'>
             <h3>Bill Payments</h3>
             <p>
-              GreenEdge offers a wide selection of recharge products, including
+              Subthingy offers a wide selection of recharge products, including
               but not limited to Digital TV, Electricity, Internet Service, with
               many more.
             </p>

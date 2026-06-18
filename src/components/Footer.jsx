@@ -10,7 +10,7 @@ export default function Footer() {
           <div className='footer-logo-wrap'>
             <img src={logo} alt='Logo' className='footer-logo' />
             <p className='comp-desc'>
-              Greenedge is an NCC licensed company operating under the value
+              Subthingy is an NCC licensed company operating under the value
               added service (VAS) as an aggregator for airtime &amp; data as
               well as providing bill payments.
             </p>
@@ -78,14 +78,18 @@ export default function Footer() {
                 <i className='ri-mail-open-fill'></i>
                 <h6>Email</h6>
                 <a href='mailto:digitalbusiness@greenedgedigitalng.com'>
-                  digitalbusiness@greenedgedigitalng.com
+                  Subthingymailtobeinputed
                 </a>
               </li>
               <li>
                 <i className='ri-phone-fill'></i>
                 <h6>Phone</h6>
-                <h5><a href='tel:234705998876'>07059998876</a></h5>
-                <h5><a href='tel:2348138633944'>+2348138633944</a></h5>
+                <h5>
+                  <a href='tel:234705998876'>07059998876</a>
+                </h5>
+                <h5>
+                  <a href='tel:2348138633944'>+2348138633944</a>
+                </h5>
               </li>
             </ul>
           </div>
@@ -96,8 +100,8 @@ export default function Footer() {
       <div className='footer-bottom'>
         <p className='copyright-text'>
           <i className='ri-copyright-line'></i>{" "}
-          <span>2025 Greenedge Services Limited</span>. All Rights Reserved |
-          Design By{" "}
+          <span>2026 Subthingy Digital Services Limited</span>. All Rights
+          Reserved | Design By{" "}
           <a
             href='https://github.com/Codekazuki'
             target='_blank'

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 import logo from "../assets/logo1.png";
@@ -6,7 +6,7 @@ import logo from "../assets/logo1.png";
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   const [theme, setTheme] = useState(
-    () => localStorage.getItem("theme") || "light"
+    () => localStorage.getItem("theme") || "light",
   );
 
   useEffect(() => {
@@ -19,7 +19,7 @@ export default function Navbar() {
       <div className='nav-inner container'>
         <div className='brand'>
           <img src={logo} alt='logo' className='logo' />
-          <a href=''>GreenEdge</a>
+          <a href=''>Subthingy</a>
         </div>
         <nav
           className={`nav ${open ? "open" : ""}`}

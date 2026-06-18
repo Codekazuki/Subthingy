@@ -1,4 +1,3 @@
-import React from "react";
 import "../components/ServiceSection.css";
 
 export default function Services() {
@@ -38,7 +37,7 @@ export default function Services() {
             <div className='service-card'>
               <h3>Bill Payments</h3>
               <p>
-                GreenEdge offers a wide selection of recharge products,
+                Subthingy offers a wide selection of recharge products,
                 including but not limited to Digital TV, Electricity, Internet
                 Service, with many more.
               </p>

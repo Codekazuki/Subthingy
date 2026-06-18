@@ -1,4 +1,3 @@
-import React from "react";
 import "./Hero.css";
 import man from "../assets/man.jpg";
 import mno from "../assets/providers.jpg";

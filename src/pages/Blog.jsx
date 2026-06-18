@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Blog() {
   return (
     <section className='container' style={{ padding: "2rem 0" }}>

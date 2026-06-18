@@ -1,4 +1,3 @@
-import React from "react";
 import "./About.css";
 import aboutimage from "../assets/providers.jpg";
 const About = () => {
@@ -10,7 +9,7 @@ const About = () => {
           <div className='who-we-are-text'>
             <h2>Who Are We?</h2>
             <p>
-              GreenEdge is a fast-rising, award-winning partner to Nigeria’s
+              Subthingy is a fast-rising, award-winning partner to Nigeria’s
               leading telecommunications providers, including MTN, Airtel, Glo,
               and 9Mobile. Since launching in 2024, we have quickly
               distinguished ourselves through innovation, excellence, and
@@ -22,7 +21,7 @@ const About = () => {
           </div>
 
           <div className='who-we-are-image'>
-            <img src={aboutimage} alt='About GreenEdge' />
+            <img src={aboutimage} alt='About Subthingy' />
           </div>
         </div>
       </div>
