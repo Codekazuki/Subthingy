@@ -19,7 +19,7 @@ const ServiceSection = () => {
               Topup your mobile instantly with airtime and data for any of the
               major networks in Nigeria; MTN, Airtel, Glo, 9mobile.
             </p>
-            <a href='vtu.html' className='btn style1'>
+            <a href='#' className='btn style1'>
               Recharge
             </a>
           </div>
@@ -32,7 +32,7 @@ const ServiceSection = () => {
               but not limited to Digital TV, Electricity, Internet Service, with
               many more.
             </p>
-            <a href='pay.html' className='btn style1'>
+            <a href='#' className='btn style1'>
               Pay Bill
             </a>
           </div>
@@ -44,7 +44,7 @@ const ServiceSection = () => {
               Integrate with ease and convenience recharge solutions via a web
               portal or an API integration to your current platform.
             </p>
-            <a href='contact.html' className='btn style1'>
+            <a href='#' className='btn style1'>
               Contact Us
             </a>
           </div>

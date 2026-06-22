@@ -18,13 +18,10 @@ const Hero = () => {
                 2019.
               </p>
               <div className='hero-btn'>
-                <a href='vtu.html' className='btn style1'>
+                <a href='#' className='btn style1'>
                   Recharge Now <i className='ri-arrow-right-s-line'></i>
                 </a>
-                <a
-                  href='https://arizona.mobifinng.com/register/'
-                  className='btn style1'
-                >
+                <a href='#' className='btn style1'>
                   Register <i className='ri-arrow-right-s-line'></i>
                 </a>
               </div>

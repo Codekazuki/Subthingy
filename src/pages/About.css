@@ -80,11 +80,13 @@
   border: 1px solid #e5e7eb;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
 }
 
 .value-card h3 {
-  color: #0b6efd;
+  color: var(--accent);
   margin-bottom: 10px;
 }
 .about-section {
@@ -98,7 +100,7 @@
 /* Section Headings */
 .about-section h2 {
   font-size: clamp(1.8rem, 3vw, 2.5rem);
-  color: #56d456;
+  color: var(--accent);
   margin-bottom: 15px;
 }
 
@@ -160,7 +162,9 @@
   border: 1px solid #e5e7eb;
   border-radius: 16px;
   box-shadow: 0 6px 14px rgba(0, 0, 0, 0.08);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
   text-align: center;
   min-height: 280px;
 }
@@ -188,11 +192,11 @@
 
 .value-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 0 20px rgba(86, 212, 86, 0.6); /* glowing green shadow */
+  box-shadow: 0 0 20px #6c63ff;
 }
 
 .value-card:hover .icon,
 .value-card:hover h3 {
-  color: #56d456; /* glowing green */
-  text-shadow: 0 0 8px rgba(86, 212, 86, 0.8);
+  color: #6c63ff;
+  text-shadow: 0 0 8px #6c63ff;
 }

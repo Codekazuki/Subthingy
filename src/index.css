@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
-:root {
+/* :root {
   --bg: #f8fafc;
   --text: #0f172a;
   --accent: #56d456;
@@ -15,6 +15,36 @@
   --muted: #94a3b8;
   --surface: #1e293b;
   --border: rgba(255, 255, 255, 0.08);
+} */
+:root {
+  --bg: #f5f6fa;
+  --text: #1a1a2e;
+  --accent: #6c63ff;
+  --muted: #8888a8;
+  --surface: #ffffff;
+  --border: #e2e4f0;
+
+  /* extras */
+  --accent-hover: #574fd6;
+  --accent-subtle: #f0efff;
+  --nav-bg: #1a1a2e;
+  --success: #1a9e6e;
+  --danger: #d94f4f;
+}
+
+[data-theme="dark"] {
+  --bg: #12121f;
+  --text: #e8e8f5;
+  --accent: #7b73ff;
+  --muted: #6666a0;
+  --surface: #1a1a2e;
+  --border: #2a2a4a;
+
+  --accent-hover: #9490ff;
+  --accent-subtle: #23234a;
+  --nav-bg: #0d0d1a;
+  --success: #34d399;
+  --danger: #f87171;
 }
 
 * {

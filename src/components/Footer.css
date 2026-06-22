@@ -75,7 +75,7 @@
 }
 
 .footer-menu a:hover {
-  color: #0b6efd;
+  color: #6c63ff;
 }
 
 .contact-info li {
@@ -95,7 +95,7 @@
 }
 
 .contact-info a:hover {
-  color: #0b6efd;
+  color: #6c63ff;
 }
 
 /* Bottom section */
@@ -107,7 +107,7 @@
 }
 
 .footer-bottom a {
-  color: #0b6efd;
+  color: #6c63ff;
   text-decoration: none;
 }
 

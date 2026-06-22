@@ -1,4 +1,4 @@
-import contactimage from "../assets/email.svg";
+import contactimage from "../assets/contact.svg";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
