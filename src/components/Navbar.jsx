@@ -1,7 +1,8 @@
 import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
-import logo from "../assets/logo1.png";
+// import logo from "../assets/logo1.png";
+import subthingyLogo from "../assets/subthingy-logo1.svg";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
@@ -18,7 +19,7 @@ export default function Navbar() {
     <header className='site-header'>
       <div className='nav-inner container'>
         <div className='brand'>
-          <img src={logo} alt='logo' className='logo' />
+          <img src={subthingyLogo} alt='logo' className='logo' />
           <a href=''>Subthingy</a>
         </div>
         <nav
