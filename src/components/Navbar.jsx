@@ -19,8 +19,8 @@ export default function Navbar() {
     <header className='site-header'>
       <div className='nav-inner container'>
         <div className='brand'>
-          <img src={subthingyLogo} alt='logo' className='logo' />
-          <a href=''>Subthingy</a>
+          <img src={subthingyLogo} alt='logo' className='logo' />{" "}
+          <NavLink to='/'>Subthing</NavLink>
         </div>
         <nav
           className={`nav ${open ? "open" : ""}`}
@@ -64,7 +64,15 @@ export default function Navbar() {
           </NavLink>
         </nav>
         <div className='actions'>
-          <button className='cta'>Get Started</button>
+          <button className='cta'>
+            <NavLink
+              to='/contact'
+              className={({ isActive }) => (isActive ? "active" : "")}
+              onClick={() => setOpen(false)}
+            >
+              Get Started
+            </NavLink>
+          </button>
           <button
             className='theme-toggle'
             onClick={() => setTheme(theme === "light" ? "dark" : "light")}
