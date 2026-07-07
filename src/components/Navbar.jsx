@@ -20,7 +20,7 @@ export default function Navbar() {
       <div className='nav-inner container'>
         <div className='brand'>
           <img src={subthingyLogo} alt='logo' className='logo' />{" "}
-          <NavLink to='/'>Subthingy</NavLink>
+          <NavLink to='/'>Subthingy...</NavLink>
         </div>
         <nav
           className={`nav ${open ? "open" : ""}`}
