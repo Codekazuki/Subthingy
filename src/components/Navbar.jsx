@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 // import logo from "../assets/logo1.png";
-import subthingyLogo from "../assets/subthingy-logo1.svg";
+import subthingyLogo from "../../public/subthingy-logo1.svg";
 
 export default function Navbar() {
   const [open, setOpen] = useState(false);
