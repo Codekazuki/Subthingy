@@ -7,7 +7,6 @@ const Hero = () => {
     <section className='hero-wrap'>
       <div className='container'>
         <div className='hero-row'>
-          {/* Left text section */}
           <div className='hero-left'>
             <div className='hero-content'>
               <span>SIMPLE, QUICK, RELIABLE</span>
@@ -28,7 +27,6 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Right images section */}
           <div className='hero-right'>
             <div className='hero-img-wrap'>
               <div className='hero-img-one'>

@@ -42,7 +42,7 @@ export default function Services() {
                 Service, with many more.
               </p>
               <a href='pay.html' className='btn style1'>
-                Pay Bill
+                Pay Bills
               </a>
             </div>
 
